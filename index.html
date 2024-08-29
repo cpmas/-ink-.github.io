@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ink's Money Saver</title>
+</head>
+<body>
+    <section id="container">
+        <h1>Ink's Money Saver</h1>
+        <div>
+            <h2 class="h21">Item One</h2>
+            <div id="input1">
+                <input id="item-1-price" type="text" placeholder="Price">
+                <input id="item-1-size" type="text" placeholder="Size (units)">
+            </div>
+        </div>
+        <div>
+            <h2 class="h21">Item Two</h2>
+            <div id="input2">
+                <input id="item-2-price" type="text" placeholder="Price">
+                <input id="item-2-size" type="text" placeholder="Size (units)">
+            </div>
+        </div>
+        <button id="GO" type="button" onclick="result()">GO!</button>
+        <div id="result" style="display: none;"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
